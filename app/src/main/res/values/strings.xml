@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Shopping</string>
+
+    <string name="bottom_home">Inicio</string>
+    <string name="bottom_profile">Perfil</string>
+
+    <string name="button_logout">Cerrar sesión</string>
+
+    <string name="product_list_title">Productos cerca de ti</string>
+    <string name="login">login</string>
+
+
+</resources>
