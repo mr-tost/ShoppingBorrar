@@ -7,7 +7,7 @@
     <data>
         <variable
             name="product"
-            type="org.bedu.shopping.Product" />
+            type="org.bedu.shopping.data.model.Product" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

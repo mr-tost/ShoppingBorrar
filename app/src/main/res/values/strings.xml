@@ -9,5 +9,10 @@
     <string name="product_list_title">Productos cerca de ti</string>
     <string name="login">login</string>
 
+    <string name="empty_field">Te falta llenar algún campo</string>
+    <string name="user_not_found">Usuario no encontrado</string>
+    <string name="error_login">Un error ha ocurrido</string>
+    <string name="understood">Entendido</string>
+
 
 </resources>

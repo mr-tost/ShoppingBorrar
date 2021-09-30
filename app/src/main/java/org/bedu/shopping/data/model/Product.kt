@@ -1,4 +1,4 @@
-package org.bedu.shopping
+package org.bedu.shopping.data.model
 
 import android.os.Parcelable
 import androidx.room.Entity

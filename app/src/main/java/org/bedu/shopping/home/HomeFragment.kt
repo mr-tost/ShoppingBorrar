@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 
 import androidx.core.view.doOnPreDraw
-import org.bedu.shopping.Product
+import org.bedu.shopping.data.model.Product
 import org.bedu.shopping.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment(), ProductAdapterListener {

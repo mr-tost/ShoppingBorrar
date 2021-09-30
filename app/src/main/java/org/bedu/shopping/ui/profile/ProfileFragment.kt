@@ -1,4 +1,4 @@
-package org.bedu.shopping
+package org.bedu.shopping.ui.profile
 
 import android.os.Bundle
 

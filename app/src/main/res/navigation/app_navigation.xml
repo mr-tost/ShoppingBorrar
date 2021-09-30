@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/login_fragment"
-        android:name="org.bedu.shopping.LoginFragment"
+        android:name="org.bedu.shopping.ui.login.LoginFragment"
         android:label="LoginFragment" >
         <action
             android:id="@+id/main_action"
@@ -14,6 +14,6 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="org.bedu.shopping.MainFragment"
+        android:name="org.bedu.shopping.ui.MainFragment"
         android:label="MainFragment" />
 </navigation>

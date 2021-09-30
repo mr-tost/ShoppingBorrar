@@ -1,16 +1,12 @@
-package org.bedu.shopping
+package org.bedu.shopping.ui
 
-import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.view.*
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import androidx.lifecycle.lifecycleScope
-import androidx.navigation.findNavController
+import org.bedu.shopping.R
 import org.bedu.shopping.databinding.FragmentMainBinding
 
 
