@@ -4,6 +4,7 @@ import android.app.Application
 import com.example.beducompras.repository.ShopDatabase
 import org.bedu.shopping.api.Api
 import org.bedu.shopping.data.repository.ComprasRepository
+import org.bedu.shopping.data.repository.ProductRepository
 
 class ShoppingApplication: Application() {
 
@@ -13,5 +14,6 @@ class ShoppingApplication: Application() {
     private val storeService = Api.storeService
     private val loginService = Api.loginService
 
-    val comprasRepository by lazy{ ComprasRepository(loginService, storeService, cartDao) }
+    val comprasRepository by lazy{ ComprasRepository(loginService) }
+    val productRepository by lazy{ ProductRepository(storeService, cartDao) }
 }

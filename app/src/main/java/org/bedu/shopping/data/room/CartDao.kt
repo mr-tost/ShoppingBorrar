@@ -10,7 +10,7 @@ import org.bedu.shopping.data.model.Product
 interface CartDao {
 
     @Insert
-    suspend fun insert(product: Product)
+    fun insert(product: Product)
 
     @Delete
     suspend fun delete(product: Product)
